@@ -4,7 +4,9 @@
   "description": "",
   "main": "./src/index.ts",
   "type": "module",
-  "dev": "concurrently \"nodemon\" \"npm run stripe\"",
+  "scripts": {
+    "build": "tsc"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
